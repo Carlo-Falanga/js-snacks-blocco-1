@@ -2,12 +2,12 @@ console.log("It works");
 
 const firstNumber = Number(prompt("Insert a number"));
 const secondNumber = Number(prompt("Insert another number"));
-console.log(firstNumber);
+
 
 if (firstNumber > secondNumber) {
-  alert(firstNumber);
+  alert(firstNumber + " e' maggiore");
 } else if (firstNumber < secondNumber) {
-  alert(secondNumber);
+  alert(secondNumber + " e' maggiore");
 } else {
     alert("I numeri sono uguali")
 }
